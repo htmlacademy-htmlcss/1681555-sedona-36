@@ -58,49 +58,49 @@
             </a>
           </li>
         </ol>
+        <form form class="catalof-filter-form" action="https://echo.htmlacademy.ru/" method="post">
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="swimmingpool" checked>
+              Бассейн
+            </label>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="parking" checked>
+              Парковка
+            </label>
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Wi-Fi">
+              Wi-Fi
+            </label>
+          </fieldset>
 
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Инфраструктура:</legend>
-          <label class="control">
-            <input class="control-input" type="checkbox" name="swimmingpool" checked>
-            Бассейн
-          </label>
-          <label class="control">
-            <input class="control-input" type="checkbox" name="parking" checked>
-            Парковка
-          </label>
-          <label class="control">
-            <input class="control-input" type="checkbox" name="Wi-Fi">
-            Wi-Fi
-          </label>
-        </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Тип жилья:</legend>
+            <label class="control">
+              <input class="control-input" type="radio" name="type-house" value="hotel" checked>
+              Гостиница
+            </label>
+            <label class="control">
+              <input class="control-input" type="radio" name="type-house" value="motel">
+              Мотель
+            </label>
+            <label class="control">
+              <input class="control-input" type="radio" name="type-house" value="Apartments">
+              Апартаменты
+            </label>
+          </fieldset>
 
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Тип жилья:</legend>
-          <label class="control">
-            <input class="control-input" type="radio" name="type-house" value="hotel" checked>
-            Гостиница
-          </label>
-          <label class="control">
-            <input class="control-input" type="radio" name="type-house" value="motel">
-            Мотель
-          </label>
-          <label class="control">
-            <input class="control-input" type="radio" name="type-house" value="Apartments">
-            Апартаменты
-          </label>
-        </fieldset>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+            <label class="control">
+              <input class="control-input" type="range" min="0" max="900">
+            </label>
+          </fieldset>
 
-        <fieldset class="catalog-filter-group">
-          <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-          <label class="control">
-            <input class="control-input" type="range" min="0" max="900">
-          </label>
-        </fieldset>
-
-        <button class="button" type="submit">Применить</button>
-        <button class="button " type="reset">Сбросить</button>
-
+          <button class="button" type="submit">Применить</button>
+          <button class="button " type="reset">Сбросить</button>
+        </form>
       </section>
 
       <section class="catalog">
